@@ -30,7 +30,7 @@ yarn add react-native-toast-message
 
 ### Step 1: Import Toast Component
 
-Wrap your app with the `Toast` component:
+Place the `Toast` component anywhere in your app
 
 ```jsx
 import React from 'react';
@@ -118,5 +118,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-Made with ❤️ by [Samuel Aubyn]
+Made with ❤️ by Samuel Aubyn
 #
