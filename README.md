@@ -3,8 +3,6 @@
 A lightweight, highly customizable toast message component for React Native applications.
 
 ![npm version](https://img.shields.io/npm/v/react-native-toast-message.svg)
-![downloads](https://img.shields.io/npm/dm/react-native-toast-message.svg)
-![license](https://img.shields.io/github/license/yourusername/react-native-toast-message.svg)
 
 ## ✨ Features
 
@@ -30,7 +28,7 @@ yarn add react-native-toast-message
 
 ### Step 1: Import Toast Component
 
-Wrap your app with the `Toast` component:
+Place the `Toast` component anywhere in your app
 
 ```jsx
 import React from 'react';
@@ -107,9 +105,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 🚨 Notes
 
@@ -118,5 +113,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-Made with ❤️ by [Samuel Aubyn]
+Made with ❤️ by Samuel Aubyn
 #
