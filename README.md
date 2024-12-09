@@ -105,7 +105,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
 ## 🚨 Notes
 
 - Requires React Native 0.60+
@@ -114,4 +113,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ---
 
 Made with ❤️ by Samuel Aubyn
-#

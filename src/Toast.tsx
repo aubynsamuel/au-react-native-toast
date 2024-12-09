@@ -41,7 +41,7 @@ class ToastManager {
 const Toast: React.FC = () => {
   const [toastInfo, setToastInfo] = useState<ToastOptions | null>(null);
   const fadeAnim = useRef(new Animated.Value(0)).current;
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef(null) as any;
 
   useEffect(() => {
     const unsubscribe = ToastManager.subscribe((info) => {
