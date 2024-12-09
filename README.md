@@ -2,8 +2,6 @@
 
 A lightweight, highly customizable toast message component for React Native applications.
 
-![npm version](https://img.shields.io/npm/v/react-native-toast-message.svg)
-
 ## ✨ Features
 
 - 🚀 Simple and Lightweight
@@ -18,10 +16,10 @@ Install the package using npm or yarn:
 
 ```bash
 # npm
-npm install react-native-toast-message
+npm install au-react-native-toast-message
 
 # Yarn
-yarn add react-native-toast-message
+yarn add au-react-native-toast-message
 ```
 
 ## 🛠 Usage
@@ -105,6 +103,14 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+<<<<<<< HEAD
+=======
+## 🚨 Notes
+
+- Requires React Native 0.70+
+- TypeScript definitions included
+
+>>>>>>> 39ee3f3d4fd2b59ac4d8d3778708b65a6620c076
 ---
 
 Made with ❤️ by Samuel Aubyn
