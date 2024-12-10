@@ -2,8 +2,6 @@
 
 A lightweight, highly customizable toast message component for React Native applications.
 
-![npm version](https://img.shields.io/npm/v/react-native-toast-message.svg)
-
 ## ✨ Features
 
 - 🚀 Simple and Lightweight
