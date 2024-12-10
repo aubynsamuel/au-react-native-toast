@@ -1,6 +1,6 @@
 {
   "name": "au-react-native-toast",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Easily display customizable toast messages in your mobile app. Pure JavaScript/React Native component. No extra dependencies needed.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
