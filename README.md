@@ -103,14 +103,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<<<<<<< HEAD
-=======
-## 🚨 Notes
-
-- Requires React Native 0.70+
-- TypeScript definitions included
-
->>>>>>> 39ee3f3d4fd2b59ac4d8d3778708b65a6620c076
 ---
 
 Made with ❤️ by Samuel Aubyn

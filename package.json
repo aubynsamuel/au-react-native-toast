@@ -1,6 +1,6 @@
 {
   "name": "au-react-native-toast",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Easily display customizable toast messages in your mobile app. Pure JavaScript/React Native component. No extra dependencies needed.",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,9 @@
     "url": "https://github.com/aubynsamuel/au-react-native-toast/issues"
   },
   "homepage": "https://github.com/aubynsamuel/au-react-native-toast#readme",
-  "dependencies": {
-    "au-react-native-toast": "file:"
+  "devDependencies": {
+    "@tsconfig/react-native": "^3.0.5",
+    "@types/react": "^19.0.1",
+    "typescript": "^5.7.2"
   }
 }
