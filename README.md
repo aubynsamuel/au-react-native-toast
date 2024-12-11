@@ -16,13 +16,13 @@ Install the package using npm or yarn:
 
 ```bash
 # npm
-npm install au-react-native-toast-message
+npm install au-react-native-toast
 
 ```
 
 ```bash
 # Yarn
-yarn add au-react-native-toast-message
+yarn add au-react-native-toast
 
 ```
 
@@ -36,7 +36,7 @@ Place the `Toast` component anywhere in your app
 
 ```jsx
 import React from 'react';
-import { Toast } from 'react-native-toast-message';
+import { Toast } from 'au-react-native-toast';
 
 const App = () => (
   <View style={{flex: 1}}>
@@ -53,7 +53,7 @@ export default App;
 Use the `showToast` function to display messages:
 
 ```jsx
-import { showToast } from "react-native-toast-message";
+import { showToast } from "au-react-native-toast";
 
 // Basic usage
 showToast("Hello, World!");
