@@ -18,11 +18,17 @@ Install the package using npm or yarn:
 # npm
 npm install au-react-native-toast-message
 
+```
+
+```bash
 # Yarn
 yarn add au-react-native-toast-message
+
 ```
 
 ## 🛠 Usage
+
+You can try our snack in your expo-go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
 
 ### Step 1: Import Toast Component
 
@@ -57,8 +63,8 @@ showToast("Important message", 5000);
 
 // With custom styles
 showToast("Success!", 3000, true, {
-  containerStyle: { backgroundColor: "green" },
-  textStyle: { color: "white", fontWeight: "bold" },
+  { backgroundColor: "green" },
+  { color: "white", fontWeight: "bold" },
 });
 ```
 
