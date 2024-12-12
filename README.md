@@ -28,7 +28,7 @@ yarn add au-react-native-toast
 
 ## 🛠 Usage
 
-## You can try our snack in your expo-go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
+### You can try our snack in your expo-go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
 
 ### Step 1: Import Toast Component
 
