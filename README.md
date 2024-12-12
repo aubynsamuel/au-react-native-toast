@@ -62,10 +62,13 @@ showToast("Hello, World!");
 showToast("Important message", 5000);
 
 // With custom styles
-showToast("Success!", 3000, true, {
-  { backgroundColor: "green" },
-  { color: "white", fontWeight: "bold" },
-});
+showToast(
+  "Success!",
+  3000,
+  true,
+  containerStyles = { backgroundColor: "green" },
+  textStyles = { color: "white", fontWeight: "bold" }
+);
 ```
 
 ## 📝 API
@@ -85,17 +88,20 @@ showToast("Success!", 3000, true, {
 You can fully customize the toast appearance:
 
 ```jsx
-showToast("Custom Style", 3000, true,
-  {
+showToast(
+  "Custom Style",
+  3000,
+  true,
+  containerStyles = {
     backgroundColor: "rgba(0,0,0,0.8)",
     borderRadius: 10,
     width: "90%",
   },
-  {
+  textStyles = {
     color: "white",
     fontSize: 16,
     fontWeight: "500",
-  },
+  }
 );
 ```
 
