@@ -28,7 +28,7 @@ yarn add au-react-native-toast
 
 ## 🛠 Usage
 
-You can try our snack in your expo-go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
+## You can try our snack in your expo-go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
 
 ### Step 1: Import Toast Component
 
@@ -85,18 +85,18 @@ showToast("Success!", 3000, true, {
 You can fully customize the toast appearance:
 
 ```jsx
-showToast("Custom Style", 3000, true, {
-  containerStyle: {
+showToast("Custom Style", 3000, true,
+  {
     backgroundColor: "rgba(0,0,0,0.8)",
     borderRadius: 10,
     width: "90%",
   },
-  textStyle: {
+  {
     color: "white",
     fontSize: 16,
     fontWeight: "500",
   },
-});
+);
 ```
 
 ## 🤝 Contributing
