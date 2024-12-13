@@ -7,6 +7,7 @@ A lightweight, highly customizable toast message component for React Native appl
 - 🚀 Simple and Lightweight
 - 🎨 Fully Customizable Styles
 - 👆 Tap-to-Dismiss Functionality
+- 📦 No dependencies
 - 🌍 Global Toast Manager
 - 📱 Compatible with React Native
 
@@ -17,18 +18,16 @@ Install the package using npm or yarn:
 ```bash
 # npm
 npm install au-react-native-toast
-
 ```
 
 ```bash
 # Yarn
 yarn add au-react-native-toast
-
 ```
 
 ## 🛠 Usage
 
-### You can try our snack in your expo-go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
+### You can try our example snack in your expo-go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
 
 ### Step 1: Import Toast Component
 
@@ -66,9 +65,40 @@ showToast(
   "Success!",
   3000,
   true,
-  containerStyles = { backgroundColor: "green" },
-  textStyles = { color: "white", fontWeight: "bold" }
+  { backgroundColor: "green" },
+  { color: "white", fontWeight: "bold" }
 );
+```
+
+## Full Example
+
+```jsx
+import { Button, View, StyleSheet } from "react-native";
+import { Toast, showToast } from "au-react-native-toast";
+
+const App = () => {
+  return (
+    <>
+      <View style={styles.container}>
+        <Button
+          title="Show Toast"
+          onPress={() => showToast("Toast Message!", 3000, true)}
+        />
+      </View>
+      <Toast />
+    </>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});
+
+export default App;
 ```
 
 ## 📝 API
@@ -92,13 +122,12 @@ showToast(
   "Custom Style",
   3000,
   true,
-  containerStyles = {
+  {
     backgroundColor: "rgba(0,0,0,0.8)",
-    borderRadius: 10,
-    width: "90%",
+    borderRadius: 10
   },
-  textStyles = {
-    color: "white",
+  {
+    color: "yellow",
     fontSize: 16,
     fontWeight: "500",
   }

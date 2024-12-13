@@ -112,22 +112,19 @@ const Toast: React.FC = () => {
 
 const styles = StyleSheet.create({
   toastContainer: {
-    position: 'absolute',
-    bottom: 50,
-    left: '15%',
-    right: '15%',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    paddingVertical: 10,
-    paddingHorizontal: 10,
+    position: "absolute",
+    bottom: 60,
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
+    paddingVertical: 12,
+    paddingHorizontal: 20,
     borderRadius: 40,
-    alignItems: 'center',
-    justifyContent: 'center',
     zIndex: 3,
+    alignSelf: "center",
   },
   toastText: {
     color: '#fff',
     fontSize: 17,
-    textAlign: 'center',
+    // textAlign: 'center',
   },
 });
 
