@@ -11,7 +11,7 @@ A lightweight, highly customizable toast message component for React Native appl
 - 🌍 Global Toast Manager
 - 📱 Compatible with React Native
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 45px;">
+<div style="width:100%; align-items: center; justify-items: center; display: flex; flex-direction: row; justify-content: center; gap: 45px;">
       <img src="screenshots/toastMessage.png" width="200" alt="Toast Message Screenshot" />
 </div>
 
