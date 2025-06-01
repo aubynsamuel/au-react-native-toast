@@ -11,6 +11,10 @@ A lightweight, highly customizable toast message component for React Native appl
 - 🌍 Global Toast Manager
 - 📱 Compatible with React Native
 
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 45px;">
+      <img src="screenshots/toastMessage.png" width="200" alt="Toast Message Screenshot" />
+</div>
+
 ## 🚀 Installation
 
 Install the package using npm or yarn:
@@ -124,7 +128,7 @@ showToast(
   true,
   {
     backgroundColor: "rgba(0,0,0,0.8)",
-    borderRadius: 10
+    borderRadius: 10,
   },
   {
     color: "yellow",
