@@ -1,6 +1,10 @@
-# 🍞 React Native Toast Message
+<div align="center">
+      
+# React Native Toast Message Component
 
 A lightweight, highly customizable toast message component for React Native applications.
+
+</div>
 
 ## ✨ Features
 
@@ -11,7 +15,7 @@ A lightweight, highly customizable toast message component for React Native appl
 - 🌍 Global Toast Manager
 - 📱 Compatible with React Native
 
-<div style="width:100%; align-items: center; justify-items: center; display: flex; flex-direction: row; justify-content: center; gap: 45px;">
+<div align="center">
       <img src="screenshots/toastMessage.png" width="200" alt="Toast Message Screenshot" />
 </div>
 
@@ -31,7 +35,7 @@ yarn add au-react-native-toast
 
 ## 🛠 Usage
 
-### You can try our example snack in your expo-go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
+### You can try our example snack in your Expo Go app here: <https://snack.expo.dev/@aubynsamuel04/toast-message>
 
 ### Step 1: Import Toast Component
 
